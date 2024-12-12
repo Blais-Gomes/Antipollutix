@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Prestations</title>
+    <link rel="stylesheet" href="prestation.css">
+    <link href="menu.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo Antipollutix">
+        </div>
+        <h1>NOS PRESTATIONS</h1>
+    </header>
+
+
+    <div class="menu-container">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div id="menu" class="menu">
+            <ul>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="apropos.html">A PROPOS</a></li>
+                <li><a href="prestation.html"> PRESTATION </a></li>
+                <li><a href="objectif.html">OBJECTIFS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+
+
+    
+    <main>
+        <div class="schema-site">
+            <img src="img/prestation.png" alt="Schéma des prestations">
+            <div class="buttons">
+                <button class="button" numero="1">1</button>
+                <button class="button" numero="2">2</button>
+                <button class="button" numero="3">3</button>
+                <button class="button" numero="4">4</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+        <div class="content-site">
+            <div class="content" id="content-1">
+                <h2>1. Injection de fluides</h2>
+                <p>
+                    Des puits d'injection sont utilisés pour introduire des fluides (air ou autres substances réactives) dans le sol pollué. 
+                    Ces fluides stimulent la dégradation des polluants présents dans le sol.
+                </p>
+            </div>
+            <div class="content" id="content-2">
+                <h2>2. Extraction des gaz</h2>
+                <p>
+                    Des puits d'extraction collectent les gaz générés par la dégradation des polluants dans le sol. 
+                    Ces gaz peuvent contenir des composés volatils issus de la pollution.
+                </p>
+                <p>
+                    Les gaz extraits passent par une unité de lavage, où les polluants solubles sont éliminés, puis sont dirigés vers un oxydateur.
+                </p>
+            </div>
+            <div class="content" id="content-3">
+                <h2>3. Échangeur thermique</h2>
+                <p>
+                    Un échangeur thermique récupère l'énergie produite lors de l'oxydation des polluants. 
+                    Cette énergie peut être utilisée pour alimenter d'autres parties du processus.
+                </p>
+            </div>
+            <div class="content" id="content-4">
+                <h2>4. Évacuation finale des gaz</h2>
+                <p>
+                    Les gaz purifiés sont ventilés et rejetés dans l'atmosphère conformément aux normes environnementales.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Antipollutix. Tous droits réservés.</p>
+    </footer>
+    
+</body>
+
+<script src="prestation.js"></script>
+</html>
